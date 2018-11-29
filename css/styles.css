@@ -1,0 +1,60 @@
+html{
+    background-image: url(https://wallpapercave.com/wp/wp2310014.png);
+    
+}
+#first{
+    padding-left: 39%;
+    font-weight: bolder;
+    
+}
+
+#one{
+    margin-left: 38%;
+    
+}
+#second{
+    padding-left: 39%;
+    font-weight: bolder;
+
+
+
+}
+#third{
+    padding-left: 39%;
+    font-weight: bolder;
+    color:#FFFF00;
+}
+
+#two{
+    margin-left: 38%;
+    
+}
+
+#three{
+        margin-left: 38%;
+        
+}
+.brief{
+    font-weight: bold;
+    color:#000033;
+}
+.tracker{
+    font-family: 'Sedgwick Ave', cursive;
+    margin-left:38%;
+    font-size: 220%;
+}
+button{
+    margin-left: 38%;
+}
+
+h4{
+    float: right;
+    font-size:110%;
+    font-family: 'Sedgwick Ave', cursive;
+
+
+}
+img{
+    float:right;
+    border-width: 4px;
+}
