@@ -3,24 +3,27 @@ html{
     
 }
 #first{
-    padding-left: 39%;
+    padding-left: 38%;
     font-weight: bolder;
     
 }
 
 #one{
     margin-left: 38%;
+    font-weight:bolder;
+    color:#FFFF00;
     
 }
 #second{
-    padding-left: 39%;
+    padding-left: 38%;
     font-weight: bolder;
+    color:#FFFF00;
 
 
 
 }
 #third{
-    padding-left: 39%;
+    padding-left: 38%;
     font-weight: bolder;
     color:#FFFF00;
 }
