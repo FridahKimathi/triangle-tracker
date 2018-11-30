@@ -1,4 +1,4 @@
-function myFunction(){
+function triangleTracker(){
     var sides =[];
     
     var a =parseInt(document.getElementById("one").value);
