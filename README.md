@@ -1,15 +1,15 @@
 # triangle-tracker
 ## Developer  information:
     Fridah Kimathi
-###Project Description:
+### Project Description:
     The project is used to indentify different triangles such as an equilateral triangle,a scalene triangle,a isosceles triangle.It can also identify a set of numbers that cannot form a triangle and when non-numeric characters such as a (.) are typed in instead.
     img src="https://image.11st.my/g3/2/5/0/7/2/7/41250727_B_V1.jpg"
 #### Set-up instructions:
         To fork this project open the repository and on the right side you will see a button written fork.Click on it to start the copying process of this project.Clickig on the fork button needs you to choose the account you want to fork this project to.Choose your username.When the forking process is done you need to clone.Go to your terminal and use the git clone command to clone the project to your prefered destination in your computer.
-  #####N.B:
+  ##### N.B:
         Ensure repository link has your username in it to ensure you do not clone the wrong repository
 
-#####Specifications:
+##### Specifications:
     The program should not accept non-numeric characters.This is made possible by use of the isNaN method.
 
     The program should be able to identify an equilateral triangle which has all its sides equal.
@@ -17,12 +17,12 @@
     The program should be able to identify a scalene triangle.The scalene triangle has non of its sides equal to the other.In addition a sum of two of its sides should be less than the other side
 
     The program should be able to identify a set of numbers that cannot  form a triangle.This is because the sum of two of its sides are equal or less than the other side.
-######Technologies used:
+###### Technologies used:
     Javascript
     HTML
     CSS
     GIT
-#######Link to the project:
+####### Link to the project:
 
 MIT License
 
