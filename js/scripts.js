@@ -14,10 +14,10 @@ function triangleTracker(){
     if(isNaN(a)){
       results.innerHTML="Invalid entry!Please enter a number.";
     }
-    else if(isNaN(b)){
+     if(isNaN(b)){
         results.innerHTML="Invalid entry!Please enter a number.";
     }
-    else if(isNaN(c)){
+     if(isNaN(c)){
         results.innerHTML="Invalid entry!Please enter a number.";
     
     }
