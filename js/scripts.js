@@ -21,20 +21,19 @@ function triangleTracker(){
         results.innerHTML="Invalid entry!Please enter a number.";
     
     }
-    
+    else if(a+b<=c || a+c<=b || b+c<=a){
+        results.innerHTML="Not a triangle";
+    }
+    else if(a==c || b==a || b==c){
+        results.innerHTML="isosceles triangle";
+    }
     else if (a==b && b==c && c==a){
             results.innerHTML="Equilateral triangle";
     }
-    else if((a!==b && b!==c && a!==c) && (a+b <c && b+c<a)){
+    else if(a!==b && b!==c && a!==c) {
             results.innerHTML ="scalene  triangle";
     }
-    else if(a==c || b==a || b==c){
-            results.innerHTML="isosceles triangle";
-    }
-    else if(a+b<=c || a+c<=b || b+c<=a){
-            results.innerHTML="Not a triangle";
     
-    }
     }
     function pageReload(){
             location.reload();
