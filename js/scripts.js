@@ -35,6 +35,8 @@ function triangleTracker(){
             results.innerHTML="Not a triangle";
     
     }
-    
+    }
+    function pageReload(){
+            location.reload();
     }
     

@@ -57,12 +57,12 @@ button{
 
 h4{
     float: right;
-    font-size:110%;
+    font-size:220%;
     font-family: 'Sedgwick Ave', cursive;
 
 
 }
-img{
-    float:right;
-    border-width: 4px;
+.refresh{
+    margin-left: 7%;
 }
+
