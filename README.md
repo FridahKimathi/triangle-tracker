@@ -3,8 +3,7 @@
     Fridah Kimathi
 ### Project Description:
     The project is used to indentify different triangles such as an equilateral triangle,a scalene triangle,a isosceles triangle.It can also identify a set of numbers that cannot form a triangle and when non-numeric characters such as a (.) are typed in instead.
-    <![Httptriangle]
-              (https://my-live.slatic.net/original/b17ffb5f8ad5c974a24c034b64deae68.jpg)
+    <![Http.triangle](images/images.jpg)
 #### Set-up instructions:
         To fork this project open the repository and on the right side you will see a button written fork.Click on it to start the copying process of this project.Clickig on the fork button needs you to choose the account you want to fork this project to.Choose your username.When the forking process is done you need to clone.Go to your terminal and use the git clone command to clone the project to your prefered destination in your computer.
   ##### N.B:
@@ -13,11 +12,16 @@
 ##### Specifications:
     The program should not accept non-numeric characters.This is made possible by use of the isNaN method.
 
+    The program should be able to identify a set of numbers that cannot  form a triangle.This is because the sum of two of its sides are less than  or equal to the other side.
+    
+    The program should be able to identify an isosceles triangle.This is because an it has two of its sides equal.
+
     The program should be able to identify an equilateral triangle which has all its sides equal.
 
-    The program should be able to identify a scalene triangle.The scalene triangle has non of its sides equal to the other.In addition a sum of two of its sides should be less than the other side
+    The program should be able to identify a scalene triangle.The scalene triangle has non of its sides equal to the other.In addition a sum of two of its sides should be greater  than the other side.
 
-    The program should be able to identify a set of numbers that cannot  form a triangle.This is because the sum of two of its sides are equal or less than the other side.
+#### Bugs:
+        There are no know bugs in this program.
 ###### Technologies used:
     Javascript
     HTML
