@@ -1,9 +1,11 @@
 function triangleTracker(){
-    var sides =[];
+    
     
     var a =parseInt(document.getElementById("one").value);
     var b =parseInt(document.getElementById("two").value);
     var c =parseInt(document.getElementById("three").value);
+
+    var sides =[];
     
     sides.push("a");
     sides.push("b");
@@ -22,19 +24,18 @@ function triangleTracker(){
         results.innerHTML="Invalid entry!Please enter a number.";
     
     }
-    else if(a+b<=c || a+c<=b || b+c<=a){
-        results.innerHTML="Not a triangle";
+    else if (a+b<=c || b+c<=a || c+a<=b) {
+        results.innerHTML="Not a Triangle";
     }
-    else if(a==c || b==a || b==c){
-        results.innerHTML="isosceles triangle";
-    }
-    else if (a==b && b==c && c==a){
+    else if(a==b && b==c && c==a){
             results.innerHTML="Equilateral triangle";
     }
-    else if(a!==b && b!==c && a!==c) {
-            results.innerHTML ="scalene  triangle";
+    else if (a==b || b==c || c==a){
+            results.innerHTML="Isosceles Triangle";
     }
-    
+    else if (a!==b && b!==c && c!==a){
+            results.innerHTML="Scalene Triangle";
+    }
     }
     function pageReload(){
             location.reload();

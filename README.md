@@ -9,7 +9,7 @@
     
 #### Set-up instructions:
         To fork this project open the repository and on the right side you will see a button written fork.Click on it to start the copying process of this project.Clickig on the fork button needs you to choose the account you want to fork this project to.Choose your username.When the forking process is done you need to clone.Go to your terminal and use the git clone command to clone the project to your prefered destination in your computer.
-  ##### N.B:
+##### N.B:
         Ensure repository link has your username in it to ensure you do not clone the wrong repository
 
 ##### Specifications:
