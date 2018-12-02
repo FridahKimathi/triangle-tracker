@@ -1,4 +1,4 @@
-
+function triangleTracker(){
     var sides =[];
     
     var a =parseInt(document.getElementById("one").value);
@@ -8,7 +8,7 @@
     sides.push("a");
     sides.push("b");
     sides.push("c");
-    function triangleTracker(){
+  
     
     var results =document.querySelector("#results");
     
